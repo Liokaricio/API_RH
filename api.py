@@ -33,6 +33,8 @@ def obtener_usuarios():
     
     return jsonify(usuarios)
 
+
+# resgistros aqui
 @app.route('/api/registros', methods=['GET'])
 def obtener_registros():
     conn = get_db_connection()
