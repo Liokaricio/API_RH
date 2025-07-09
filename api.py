@@ -63,7 +63,7 @@ def obtener_registros():
         }
         for row in cursor.fetchall()
     ]
-
+    #pollo
     conn.close()
     return jsonify(registros)
 
