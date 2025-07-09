@@ -5,6 +5,7 @@ import datetime
 
 app = Flask(__name__)
 # JAJAJ QUE MEQUETREFE X2
+# jotos los del becas y credito.
 # Configuración de la conexión a la base de datos Access
 DATABASE_PATH = r"./att2000.mdb"  # Cambia esto por la ubicación real
 DB_CONNECTION_STRING = (
@@ -32,6 +33,8 @@ def obtener_usuarios():
     
     return jsonify(usuarios)
 
+
+# resgistros aqui
 @app.route('/api/registros', methods=['GET'])
 def obtener_registros():
     conn = get_db_connection()
@@ -60,7 +63,7 @@ def obtener_registros():
         }
         for row in cursor.fetchall()
     ]
-
+    #pollo
     conn.close()
     return jsonify(registros)
 
