@@ -5,6 +5,7 @@ import datetime
 
 app = Flask(__name__)
 # JAJAJ QUE MEQUETREFE X2
+# jotos los del becas y credito.
 # Configuración de la conexión a la base de datos Access
 DATABASE_PATH = r"./att2000.mdb"  # Cambia esto por la ubicación real
 DB_CONNECTION_STRING = (
