@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import subprocess
 import psutil
-
+# JAJAJA QUE MEQUETREFE
 def iniciar_api():
     global proceso_api
     if not obtener_pid():
